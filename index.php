@@ -21,8 +21,11 @@
 
     <body>
         <header id="header" class="container-fluid bg-light">
-            <p>Ingrid Lucas - Osthéopathe D.O. / 24 bis rue de Chassagne - 69360 Ternay</p>
-            <p>
+            <div>
+              <p>Ingrid Lucas - Osthéopathe D.O.</p>
+              <p>24 bis rue de Chassagne - 69360 Ternay</p>
+            </div>
+            <div>
                 Consultations sur rendez-vous
                 <a href="tel:+33627584026">
                     <i class="fas fa-phone-alt"></i>
@@ -30,9 +33,9 @@
                 </a>
                 ou en ligne sur
                 <a href="https://www.doctolib.fr/osteopathe/communay/ingrid-lucas" target="_blank" rel="noopener noreferrer">Doctolib</a>
-            </p>
+            </div>
 
-            <nav>
+            <nav id="navbar">
                 <ul>
                     <li>Accueil</li>
                     <li>Quand consulter</li>
@@ -55,7 +58,18 @@
             </article>
 
             <article id="consultation">
-
+                <div>
+                  <img src="" alt="" >
+                  <p>Lorem ipsum</p>
+                </div>
+                <div>
+                  <img src="" alt="" >
+                  <p>Lorem ipsum</p>
+                </div>
+                <div>
+                  <img src="" alt="" >
+                  <p>Lorem ipsum</p>
+                </div>
             </article>
 
             <article id="seance">

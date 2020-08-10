@@ -148,7 +148,7 @@ function ingridlucas_scripts() {
 	wp_style_add_data( 'ingridlucas-style', 'rtl', 'replace' );
 	wp_enqueue_style( 'main', get_template_directory_uri() . '/src/css/main.css', array());
 
-	wp_enqueue_script( 'ingridlucas-navigation', get_template_directory_uri() . '/scr/js/navigation.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'ingridlucas-navigation', get_template_directory_uri() . '/src/js/navigation.js', array(), _S_VERSION, true );
 	wp_enqueue_script( 'jquery', 'https://code.jquery.com/jquery-3.5.1.min.js', array(), true);
 	wp_enqueue_script( 'popper', 'https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js', array('jquery'), true);
 	wp_enqueue_script( 'bootstrap-js', 'https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js', array('jquery', 'popper'), true);

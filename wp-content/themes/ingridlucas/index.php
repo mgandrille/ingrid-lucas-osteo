@@ -38,21 +38,23 @@ get_header();
 
 		<article id="consultation" class="container-fluid">
 			<h2>Quand consulter un ostéopathe ?</h2>
-			<div class="container row mx-0">
-				<div class="col-12 col-md consultation">
-					<img src="" alt="" >
-					<h6>Adultes</h6>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, vel eaque! Expedita provident, iure ea rem officia odit enim ratione dolorem. Nemo corporis ex cupiditate repudiandae nesciunt laborum error consequuntur.</p>
-				</div>
-				<div class="col-12 col-md consultation">
-					<img src="" alt="" >
-					<h6>Enfants</h6>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, vel eaque! Expedita provident, iure ea rem officia odit enim ratione dolorem. Nemo corporis ex cupiditate repudiandae nesciunt laborum error consequuntur.</p>
-				</div>
-				<div class="col-12 col-md consultation">
-					<img src="" alt="" >
-					<h6>Femmes enceintes</h6>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, vel eaque! Expedita provident, iure ea rem officia odit enim ratione dolorem. Nemo corporis ex cupiditate repudiandae nesciunt laborum error consequuntur.</p>
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md consultation">
+						<img src="" alt="" >
+						<h6>Adultes</h6>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, vel eaque! Expedita provident, iure ea rem officia odit enim ratione dolorem. Nemo corporis ex cupiditate repudiandae nesciunt laborum error consequuntur.</p>
+					</div>
+					<div class="col-12 col-md consultation">
+						<img src="" alt="" >
+						<h6>Enfants</h6>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, vel eaque! Expedita provident, iure ea rem officia odit enim ratione dolorem. Nemo corporis ex cupiditate repudiandae nesciunt laborum error consequuntur.</p>
+					</div>
+					<div class="col-12 col-md consultation">
+						<img src="" alt="" >
+						<h6>Femmes enceintes</h6>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, vel eaque! Expedita provident, iure ea rem officia odit enim ratione dolorem. Nemo corporis ex cupiditate repudiandae nesciunt laborum error consequuntur.</p>
+					</div>
 				</div>
 			</div>
 		</article>
@@ -60,33 +62,57 @@ get_header();
 		<article id="seance" class="container-fluid">
 			<h2>Comment se déroule une séance ?</h2>
 
-			<div id="etape1">
+			<div id="etape1" class="container">
 				<h3>Etape 1</h3>
-				<img src="https://via.placeholder.com/75" alt="">
-				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur perferendis impedit a quibusdam ipsum aliquid voluptates. Totam quo facilis error sequi porro voluptates libero vitae modi quae repellendus! Unde, itaque!</p>
+				<div class="row">
+					<div class="col">
+						<img src="https://via.placeholder.com/75" alt="">
+					</div>
+					<div class="col">
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur perferendis impedit a quibusdam ipsum aliquid voluptates. Totam quo facilis error sequi porro voluptates libero vitae modi quae repellendus! Unde, itaque!</p>
+					</div>
+				</div>
 			</div>
 
-			<div id="etape2">
+			<div id="etape2" class="container">
 				<h3>Etape 2</h3>
-				<img src="https://via.placeholder.com/75" alt="">
-				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur perferendis impedit a quibusdam ipsum aliquid voluptates. Totam quo facilis error sequi porro voluptates libero vitae modi quae repellendus! Unde, itaque!</p>
+				<div class="row">
+					<div class="order-2 col">
+						<img src="https://via.placeholder.com/75" alt="">
+					</div>
+					<div class="order-1 col">
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur perferendis impedit a quibusdam ipsum aliquid voluptates. Totam quo facilis error sequi porro voluptates libero vitae modi quae repellendus! Unde, itaque!</p>
+					</div>
+				</div>
 			</div>
 
-			<div id="etape3">
+			<div id="etape3" class="container">
 				<h3>Etape 3</h3>
-				<img src="https://via.placeholder.com/75" alt="">
-				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur perferendis impedit a quibusdam ipsum aliquid voluptates. Totam quo facilis error sequi porro voluptates libero vitae modi quae repellendus! Unde, itaque!</p>
+				<div class="row">
+					<div class="col">
+						<img src="https://via.placeholder.com/75" alt="">
+					</div>
+					<div class="col">
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur perferendis impedit a quibusdam ipsum aliquid voluptates. Totam quo facilis error sequi porro voluptates libero vitae modi quae repellendus! Unde, itaque!</p>
+					</div>
+				</div>
 			</div>
 
-			<div id="etape4">
+			<div id="etape4" class="container">
 				<h3>Etape 4</h3>
-				<img src="https://via.placeholder.com/75" alt="">
-				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur perferendis impedit a quibusdam ipsum aliquid voluptates. Totam quo facilis error sequi porro voluptates libero vitae modi quae repellendus! Unde, itaque!</p>
+				<div class="row">
+					<div class="order-2 col">
+						<img src="https://via.placeholder.com/75" alt="">
+					</div>
+					<div class="order-1 col">
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur perferendis impedit a quibusdam ipsum aliquid voluptates. Totam quo facilis error sequi porro voluptates libero vitae modi quae repellendus! Unde, itaque!</p>
+					</div>
+				</div>
 			</div>
 		</article>
 
 		<article id="rdv" class="container-fluid">
-			<div>
+			<div class="container rdv">
 				<h4>Pour prendre rendez-vous</h4>
 				<p>
 					Je suis joignable au
@@ -96,7 +122,7 @@ get_header();
 				</p>
 
 				<p>ou directement sur Internet </p>
-				<div class="lien-rdv">
+				<div class="lien-rdv container">
 					<a href="https://www.doctolib.fr/osteopathe/communay/ingrid-lucas" target="_blank">
 						Prendre rendez-vous en ligne
 					</a>
@@ -104,7 +130,7 @@ get_header();
 
 			</div>
 
-			<div>
+			<div class="container rdv">
 				<h4>honoraires</h4>
 				<p>Tarif de la consulation <span class="bold">55 euros</span></p>
 				<p>Les séances d'ostéopathie ne sont pas remboursées par la sécurité sociale mais le sont par les mutuelles</p>

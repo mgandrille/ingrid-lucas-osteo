@@ -64,7 +64,7 @@ header p
     background-position: 50% 50%;
 }
 
-h1, #presentation h2 {
+h1, #presentation h2, h4 {
     color: white;
     /* text-align: center; */
     text-transform: uppercase;
@@ -76,7 +76,7 @@ h1 {
 
 .lien-rdv {
     width: max-content;
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     background-color: white;
     border-radius: 30px;
     border: 1px solid purple;
@@ -100,6 +100,18 @@ h1 {
 #consultation, #rdv {
     background-color: #4e3349;
     color: white;
+}
+
+
+#etape1 h3, #etape3 h3 {
+    text-align: left;
+}
+#etape2 h3, #etape4 h3 {
+    text-align: right;
+}
+
+#rdv .container.rdv {
+    padding: 1.5rem 1rem;
 }
 
 

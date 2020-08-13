@@ -5,6 +5,7 @@
 body {
     margin: 0;
     overflow-x: hidden;
+    text-align: center;
 }
 
 .container-fluid {
@@ -56,7 +57,7 @@ header p
 /* **** MAIN SITE **** */
 
 #presentation {
-    height: 50vh;
+    height: 60vh;
     background-image: url('https://res.cloudinary.com/doctolib/image/upload/q_auto:eco,f_auto,w_1024,h_700,c_limit/fenwiziabahuheepbpgg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -65,7 +66,7 @@ header p
 
 h1, #presentation h2 {
     color: white;
-    text-align: center;
+    /* text-align: center; */
     text-transform: uppercase;
 }
 
@@ -75,12 +76,36 @@ h1 {
 
 .lien-rdv {
     width: max-content;
+    padding: 1rem;
     background-color: white;
     border-radius: 30px;
+    border: 1px solid purple;
 }
 
 .lien-rdv a {
-    color: darkviolet;
+    color: purple;
     font-weight: bold;
 }
 
+#cabinet div {
+    padding: 0 1.2rem;
+}
+
+#cabinet img {
+    width: 30vh;
+    height: 26vh;
+    border-radius: 50%;
+}
+
+#consultation, #rdv {
+    background-color: #4e3349;
+    color: white;
+}
+
+
+/* **** MEDIA QUERIES **** */
+@media (min-width: 768px) {
+    #cabinet img {
+        height: 33vh;
+    }
+}

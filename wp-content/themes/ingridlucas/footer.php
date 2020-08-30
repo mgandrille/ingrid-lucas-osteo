@@ -13,7 +13,7 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="container-fluid">
-			&copy; <?= date('Y') ?> Ingrid Lucas Ostéopathe D.O.
+			<small>&copy; <?= date('Y') ?> Ingrid Lucas Ostéopathe D.O.</small>
 		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->

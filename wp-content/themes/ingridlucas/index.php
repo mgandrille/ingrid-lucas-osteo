@@ -65,10 +65,8 @@ get_header();
 			<div id="etape1" class="container">
 				<h3>Etape 1</h3>
 				<div class="row">
-					<div class="col">
-						<img src="https://via.placeholder.com/75" alt="">
-					</div>
-					<div class="col">
+					<img class="col col-md-3" src="https://via.placeholder.com/90x70" alt="">
+					<div class="col col-md-9">
 						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur perferendis impedit a quibusdam ipsum aliquid voluptates. Totam quo facilis error sequi porro voluptates libero vitae modi quae repellendus! Unde, itaque!</p>
 					</div>
 				</div>
@@ -77,10 +75,8 @@ get_header();
 			<div id="etape2" class="container">
 				<h3>Etape 2</h3>
 				<div class="row">
-					<div class="order-2 col">
-						<img src="https://via.placeholder.com/75" alt="">
-					</div>
-					<div class="order-1 col">
+					<img class="order-2 col col-md-3" src="https://via.placeholder.com/90x70" alt="">
+					<div class="order-1 col col-md-9">
 						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur perferendis impedit a quibusdam ipsum aliquid voluptates. Totam quo facilis error sequi porro voluptates libero vitae modi quae repellendus! Unde, itaque!</p>
 					</div>
 				</div>
@@ -89,10 +85,8 @@ get_header();
 			<div id="etape3" class="container">
 				<h3>Etape 3</h3>
 				<div class="row">
-					<div class="col">
-						<img src="https://via.placeholder.com/75" alt="">
-					</div>
-					<div class="col">
+					<img class="col col-md-3" src="https://via.placeholder.com/90x70" alt="">
+					<div class="col col-md-9">
 						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur perferendis impedit a quibusdam ipsum aliquid voluptates. Totam quo facilis error sequi porro voluptates libero vitae modi quae repellendus! Unde, itaque!</p>
 					</div>
 				</div>
@@ -101,10 +95,8 @@ get_header();
 			<div id="etape4" class="container">
 				<h3>Etape 4</h3>
 				<div class="row">
-					<div class="order-2 col">
-						<img src="https://via.placeholder.com/75" alt="">
-					</div>
-					<div class="order-1 col">
+					<img class="order-2 col col-md-3" src="https://via.placeholder.com/90x70" alt="">
+					<div class="order-1 col col-md-9">
 						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur perferendis impedit a quibusdam ipsum aliquid voluptates. Totam quo facilis error sequi porro voluptates libero vitae modi quae repellendus! Unde, itaque!</p>
 					</div>
 				</div>

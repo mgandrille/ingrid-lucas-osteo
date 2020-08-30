@@ -114,6 +114,12 @@ h1 {
     padding: 1.5rem 1rem;
 }
 
+div.container.rdv p a,
+div.container.rdv p a:visited
+{
+    color: white;
+}
+
 
 /* **** MEDIA QUERIES **** */
 @media (min-width: 768px) {

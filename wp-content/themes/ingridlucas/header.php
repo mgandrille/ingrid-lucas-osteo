@@ -37,7 +37,7 @@
 	<!-- <a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'ingridlucas' ); ?></a> -->
 
 	<header id="header" class="container-fluid mx-auto">
-		<div class="container text-center pb-3">
+		<div class="container text-center pb-3 d-none d-md-block">
 			<div class="row">
 				<p class="titre col">Ingrid Lucas - Ostéopathe D.O.</p>
 				<p class="col">24 bis rue de Chassagne - 69360 Ternay</p>

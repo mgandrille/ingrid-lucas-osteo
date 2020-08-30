@@ -23,8 +23,8 @@
 
 	<!-- Favicon -->
     <link rel="icon" type="image/png" href="favicon.ico">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"> -->
 
     <title>Ingrid Lucas Ostéopathe</title>
 
@@ -61,19 +61,19 @@
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav w-100 justify-content-between">
 					<li class="nav-item active">
-						<a class="nav-link" href="#">Accueil</a>
+						<a class="nav-link" href="#primary">Accueil</a>
 					</li>
 					<li class="nav-item active">
-						<a class="nav-link" href="#">Quand consulter</a>
+						<a class="nav-link" href="#consultation">Quand consulter</a>
 					</li>
 					<li class="nav-item active">
-						<a class="nav-link" href="#">Séance</a>
+						<a class="nav-link" href="#seance">Séance</a>
 					</li>
 					<li class="nav-item active">
-						<a class="nav-link" href="#">Rendez-vous</a>
+						<a class="nav-link" href="#rdv">Rendez-vous</a>
 					</li>
 					<li class="nav-item active">
-						<a class="nav-link" href="#">Informations pratiques</a>
+						<a class="nav-link" href="#infos">Informations pratiques</a>
 					</li>
 				</ul>
 			</div>

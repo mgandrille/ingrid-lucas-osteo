@@ -8,6 +8,11 @@ body {
     text-align: center;
 }
 
+img {
+    display: block;
+    width: 100%;
+}
+
 .container-fluid {
     padding: 2rem 0;
 }
@@ -57,7 +62,7 @@ header p
 /* **** MAIN SITE **** */
 
 #presentation {
-    height: 60vh;
+    /* height: 60vh; */
     background-image: url('https://res.cloudinary.com/doctolib/image/upload/q_auto:eco,f_auto,w_1024,h_700,c_limit/fenwiziabahuheepbpgg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -87,13 +92,15 @@ h1 {
     font-weight: bold;
 }
 
-#cabinet div {
-    padding: 0 1.2rem;
+.medaillon {
+    display: flex;
+    justify-content: center;
+    padding: 0;
 }
 
 #cabinet img {
-    width: 30vh;
-    height: 26vh;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
 }
 
@@ -121,9 +128,36 @@ div.container.rdv p a:visited
 }
 
 
+/* SIDEBAR */
+.widget-area {
+    display: flex;
+    justify-content: center;
+}
+
+.widget-area div {
+    width: 50vw;
+    color: purple;
+    background: white;
+    border: .3em solid purple;
+    font-weight: bold;
+}
+
+.widget-area p {
+    margin: auto;
+}
+
+
 /* **** MEDIA QUERIES **** */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     #cabinet img {
-        height: 33vh;
+        width: 150px;
+        height: 150px;
     }
 }
+
+@media (min-width: 992px) {
+    #cabinet img {
+        width: 30vw;
+        height: 40vh;
+    }
+} */

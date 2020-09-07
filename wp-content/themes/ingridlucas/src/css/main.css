@@ -59,6 +59,13 @@ header p
     font-weight: bold;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
 /* **** MAIN SITE **** */
 
 #presentation {
@@ -145,6 +152,8 @@ div.container.rdv p a:visited
 .widget-area p {
     margin: auto;
 }
+/* FIN SIDEBAR */
+
 
 
 /* **** MEDIA QUERIES **** */

@@ -63,6 +63,7 @@ header p
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 99;
 }
 
 
@@ -153,6 +154,19 @@ div.container.rdv p a:visited
     margin: auto;
 }
 /* FIN SIDEBAR */
+
+/* LEAFLET */
+#map {
+    width: 80%;
+    min-height: 360px;
+    margin: auto;
+}
+
+.leaflet-popup-content h6 {
+    color: purple;
+    text-align: center;
+    font-weight: bold;
+}
 
 
 

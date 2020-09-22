@@ -135,7 +135,15 @@ get_header();
 		</article>
 
 		<article id="infos" class="container-fluid">
-			<div id="map"></div>
+			<div class="container row mx-auto">
+				<div id="map" class="col-12 col-md-8"></div>
+				<div class="col-12 col-md-4 my-auto">
+					<h5 class="mt-3 mt-md-0">Ingrid Lucas</h5>
+					<h6>Ostéopathe D.O.</h6>
+					<p>24 bis rue de Chassagne <br> 69360 Ternay</p>
+					<a href="tel:+33627584026"><i class="fas fa-phone-alt"></i>06 27 58 40 26</a>
+				</div>
+			</div>
 		</article>
 	</main><!-- #main -->
 

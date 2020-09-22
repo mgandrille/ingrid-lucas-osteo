@@ -59,9 +59,14 @@ header p
     font-weight: bold;
 }
 
+.navbar-nav {
+    z-index: 99;
+}
+
 .sticky {
     position: fixed;
     top: 0;
+    text-align: left;
     width: 100%;
     z-index: 99;
 }
@@ -135,6 +140,11 @@ div.container.rdv p a:visited
     color: white;
 }
 
+#infos h5 {
+    color: #4e3349;
+    font-size: 1.8rem;
+}
+
 
 /* SIDEBAR */
 .widget-area {
@@ -160,14 +170,21 @@ div.container.rdv p a:visited
     width: 80%;
     min-height: 360px;
     margin: auto;
+    z-index: 10;
 }
 
-.leaflet-popup-content h6 {
+.leaflet-popup-content {
     color: purple;
     text-align: center;
     font-weight: bold;
 }
 
+
+/* **** FOOTER **** */
+footer {
+    background: #4e3349;
+    color: white;
+}
 
 
 /* **** MEDIA QUERIES **** */

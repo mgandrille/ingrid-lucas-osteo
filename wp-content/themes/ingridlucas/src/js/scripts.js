@@ -30,7 +30,7 @@ function getMap() {
 		attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM/Wikimedia</a> contributors'
 	}).addTo(map);
 
-	const popupContent = '<h6>Ingrid Lucas</h6><h6>Ostéopathe D.O.</h6><p>24 bis rue de Chassagne <br> 69360 Ternay</p><a href="tel:+33627584026"><i class="fas fa-phone-alt"></i>06 27 58 40 26</a>'
+	const popupContent = 'Ingrid Lucas <br> Ostéopathe D.O.'
 
 	L.marker([45.598849, 4.807537]).addTo(map)
 		.bindPopup(popupContent)
